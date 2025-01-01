@@ -181,3 +181,23 @@ body {
 }
 
 
+/* RODAPÉ */
+footer {
+    width: 100%;
+    background-color: #181818;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 18px;
+}
