@@ -18,6 +18,9 @@ body {
     width: 100%;
     display: flex;
     justify-content: end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
 }
 
 .nav-list {
@@ -75,10 +78,45 @@ body {
     padding: 14px;
     border-radius: 4px;
     font-weight: bold;
-    opacity: 0.8;
-    transition: .3s;
+    opacity: 0.9;
+    transition: .6s;
+    margin-top: 15px;
 }
 
 .call-to-action:hover {
     opacity: 1;
+    transform: scale(1.1);
 }
+
+
+
+/* SOBRE */
+.about {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+
+}
+
+.about img {
+    max-width: 450px;
+    border-radius: 8px;
+}
+
