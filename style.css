@@ -122,7 +122,6 @@ body {
 
 
 
-
 /* PROJETOS */
 .projects {
     width: 100%;
@@ -164,3 +163,21 @@ body {
 .projects img:hover {
     opacity: 1;
 }
+
+.btn-action {
+    background-color: #181818;
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 18px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.btn-action:hover {
+    transform: scale(1.1);
+}
+
+
