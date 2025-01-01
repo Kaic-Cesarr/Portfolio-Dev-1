@@ -12,7 +12,6 @@ body {
 }
 
 /* HEADER */
-
 .nav {
     background-color: #181818;
     height: 80px;
@@ -36,4 +35,50 @@ body {
 
 .nav-list a:hover {
     color: #fff;
+}
+
+
+
+/* MAIN */
+.main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #000;
+    background-image: url('images/programador.png');
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1 {
+    color: #fff;
+    font-size: 54px;
+}
+
+.main p {
+    font-size: 19px;
+    font-style: italic;
+    color: #1e96FC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.call-to-action {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: .3s;
+}
+
+.call-to-action:hover {
+    opacity: 1;
 }
